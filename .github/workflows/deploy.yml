@@ -1,0 +1,33 @@
+name: Deploy SIMLAB to Cloud VPS
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    name: AutoDeploy to VPS Ubuntu 24.04 LTS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Webhook / SSH Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: 103.180.124.142
+          port: 20114
+          username: root
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: |
+            echo "Memulai deployment SIMLAB..."
+            cd /var/www/simlab
+            git pull origin main
+            composer install --no-dev --optimize-autoloader --no-interaction
+            php artisan migrate --force
+            php artisan optimize:clear
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+            chown -R www-data:www-data /var/www/simlab
+            chmod -R 775 /var/www/simlab/storage /var/www/simlab/bootstrap/cache /var/www/simlab/database
+            systemctl reload nginx
+            echo "Deployment SIMLAB berhasil!"
