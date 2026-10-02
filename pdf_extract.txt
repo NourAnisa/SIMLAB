@@ -1,0 +1,892 @@
+=== PAGE 83 ===
+ 
+ 
+60 
+ 
+Halaman ini sengaja dikosongkan 
+ 
+
+=== PAGE 84 ===
+ 
+ 
+61 
+ 
+Pada iterasi ini, struktur class diagram terdiri atas 9 entitas utama, yaitu 
+users, 
+masyarakats, 
+kecamatans, 
+kelurahans, 
+kampungs, 
+pengajuans, 
+file_pengajuans, feedbacks, dan dokumens. Secara umum, atribut pada masing-
+masing entitas memiliki kesamaan dengan atribut pada ERD sebelumnya. Namun, 
+pada class diagram ini juga ditambahkan beberapa method yang mencerminkan 
+fungsionalitas dari masing-masing kelas. Penjelasan terkait method yang dimiliki 
+oleh entitas pada class diagram 1 dijelaskan pada Tabel 4.6 berikut. 
+Tabel 4. 6 Penjelasan Class Diagram 1 
+No Entitas 
+Method 
+1 
+kampungs 
+1. Index() 
+untuk 
+menampilkan 
+halaman manajemen kampung. 
+2. Create() 
+untuk 
+menampilkan 
+halaman tambah kampung. 
+3. Store() untuk menyimpan data 
+kampung. 
+4. Edit() untuk menampilkan halaman 
+edit kampung. 
+5. Update() untuk menyimpan update 
+data kampung. 
+6. Destroy() untuk menghapus data 
+kampung. 
+2 
+kecamatans 
+1. Index() 
+untuk 
+menampilkan 
+halaman manajemen kecamatan. 
+2. Create() 
+untuk 
+menampilkan 
+halaman tambah kecamatan. 
+3. Store() untuk menyimpan data 
+kecamatan. 
+4. Edit() untuk menampilkan halaman 
+edit kecamatan. 
+5. Update() untuk menyimpan update 
+data kecamatan. 
+6. Destroy() untuk menghapus data 
+kecamatan. 
+3 
+kelurahans 
+1. Index() 
+untuk 
+menampilkan 
+halaman manajemen kelurahan. 
+2. Create() 
+untuk 
+menampilkan 
+halaman tambah kelurahan. 
+3. Store() untuk menyimpan data 
+kelurahan. 
+
+=== PAGE 85 ===
+ 
+ 
+62 
+ 
+No Entitas 
+Method 
+4. Edit() untuk menampilkan halaman 
+edit kelurahan. 
+5. Update() untuk menyimpan update 
+data kelurahan. 
+6. Destroy() untuk menghapus data 
+kelurahan. 
+4 
+Masyarakat 
+1. Index() 
+untuk 
+menampilkan 
+halaman manajemen masyarakat. 
+2. Create() 
+untuk 
+menampilkan 
+halaman tambah masyarakat. 
+3. Store() untuk menyimpan data 
+masyarakat. 
+4. Edit() untuk menampilkan halaman 
+edit masyarakat. 
+5. changePassword() 
+untuk 
+melakukan 
+ganti 
+password 
+masyarakat. 
+6. Update() untuk menyimpan data 
+update masyarakat. 
+7. Destroy() untuk menghapus data 
+masyarakat. 
+8. storeManual() untuk melakukan 
+store 
+data 
+masyarakat 
+manual 
+(tanpa mencocokkan data dengan 
+data API). 
+9. craeteManual() untuk menampilkan 
+halaman tambah masyarakat manual 
+(tanpa mencocokkan data dengan 
+data API). 
+5 
+dokumens 
+1. Index() 
+untuk 
+menampilkan 
+halaman 
+manajemen 
+template 
+dokumen. 
+2. Create() 
+untuk 
+menampilkan 
+halaman tambah template dokumen. 
+3. Store() untuk menyimpan data 
+template dokumen. 
+4. Edit() untuk menampilkan halaman 
+edit template dokumen. 
+5. Update() untuk menyimpan update 
+data template dokumen. 
+
+=== PAGE 86 ===
+ 
+ 
+63 
+ 
+No Entitas 
+Method 
+6. Destroy() untuk menghapus data 
+template dokumen. 
+7. Index_SK() untuk menampilkan 
+halaman manajemen dokumentasi 
+SK Penetapan. 
+8. Create_SK () untuk menampilkan 
+halaman tambah dokumentasi SK 
+Penetapan. 
+9. Store_SK () untuk menyimpan data 
+dokumentasi SK Penetapan. 
+10. Edit_SK () untuk menampilkan 
+halaman edit dokumentasi SK 
+Penetapan. 
+11. Update_SK () untuk menyimpan 
+update 
+data 
+dokumentasi 
+SK 
+Penetapan. 
+12. Destroy_SK () untuk menghapus 
+data dokumentasi SK Penetapan. 
+6 
+file_pengajuans 
+1. Index() untuk menampilkan daftar 
+pengajuan yang perlu diverifikasi 
+pada admin. 
+2. updateTimeline() 
+fungsi 
+utilitas 
+internal controller untuk update 
+timeline pengajuan. 
+3. verifyPengajuan() untuk menerima 
+pengajuan yang dilakukan. 
+4. VerifikasiDokumen() 
+untuk 
+melakukan verifikasi dokumen yang 
+diajukan (menyetujui). 
+5. batalkanVerifikasi() 
+untuk 
+membatalkan verifikasi dokumen 
+yang telah disetujui. 
+6. revisiDokumen() untuk melakukan 
+revisi pada dokumen yang diajukan. 
+7. tolakDokumen() 
+untuk 
+menolak 
+dokumen yang diajukan. 
+8. deletePengajuan() 
+untuk 
+menghapus pengajuan. 
+
+=== PAGE 87 ===
+ 
+ 
+64 
+ 
+No Entitas 
+Method 
+7 
+pengajuans 
+1. createPengajuan() 
+untuk 
+menampilkan 
+form 
+pengajuan 
+BSPS. 
+2. Show() untuk menampilkan detail 
+pengajuan. 
+3. adminControlling() 
+untuk 
+menampilkan data pengajuan pada 
+dashboard admin controlling. 
+4. Revisi() 
+untuk 
+store 
+kembali 
+pengajuan ketika melakukan revisi. 
+5. storePengajuan() untuk store data 
+pengajuan. 
+6. updateTimeline() 
+fungsi 
+utilitas 
+internal controller untuk update 
+timeline pengajuan. 
+7. berikanFeedback() fungsi untuk 
+user yang memiliki hak akses dalam 
+memberikan 
+komentar 
+pada 
+pengajuan. 
+C. 
+User Interface 1 
+Berikut ini merupakan beberapa contoh rancangan tampilan antarmuka 
+pengguna (user interface) untuk user story yang dikerjakan pada iterasi pertama. 
+Rancangan antarmuka lengkap untuk iterasi ini dapat dilihat pada Lampiran E-1 
+
+=== PAGE 88 ===
+ 
+ 
+65 
+ 
+ 
+Gambar 4. 4 Mockup Antarmuka Pengajuan BSPS 
+ 
+Pada Gambar 4.4 menampilkan mockup antarmuka halaman pengajuan 
+Bantuan Stimulan Perumahan Swadaya (BSPS) yang digunakan oleh masyarakat 
+untuk mengisi dan mengunggah berkas-berkas persyaratan pengajuan bantuan. 
+Halaman ini berisi sejumlah field input, antara lain unggahan dokumen berupa KTP, 
+Kartu Keluarga (KK), sertifikat tanah atau surat keterangan kepemilikan lainnya, 
+surat keterangan Masyarakat Berpenghasilan Rendah (MBR), surat permohonan, 
+surat pernyataan bersedia mengikuti program BSPS, serta foto kondisi rumah saat 
+ini. Selain dokumen, terdapat pula input untuk mengisi koordinat lokasi rumah 
+dalam bentuk latitude dan longitude. Untuk mempermudah pengguna dalam 
+menentukan lokasi, disediakan juga komponen peta (maps) interaktif yang 
+memungkinkan pengguna memilih titik lokasi rumah secara langsung. Di bagian 
+akhir formulir, terdapat checkbox yang harus dicentang sebagai bentuk persetujuan 
+terhadap syarat dan ketentuan program, serta tombol submit untuk mengirimkan 
+pengajuan. 
+
+=== PAGE 89 ===
+ 
+ 
+66 
+ 
+ 
+Gambar 4. 5 Mockup Antarmuka Halaman Verifikasi BSPS 
+ 
+Gambar 4.5 menampilkan halaman verifikasi pengajuan BSPS yang 
+digunakan untuk melakukan verifikasi kelengkapan dokumen yang diajukan oleh 
+masyarakat. Dokumen ditampilkan dalam bentuk tabel lengkap dengan status dan 
+tombol aksi untuk melihat maupun memverifikasi. Terdapat tombol untuk 
+menerima pengajuan pada tahap awal. Di sisi lain, ditampilkan informasi pengaju 
+dalam bentuk card, titik koordinat lokasi rumah melalui peta, serta timeline proses 
+pengajuan untuk menunjukkan tahapan yang telah dilalui. 
+4.3.3 Implementation 1 
+Tahap implementation merupakan langkah untuk merealisasikan rancangan 
+sistem yang telah disusun pada tahap planning sebelumnya. Pada fase ini, proses 
+pengembangan dimulai dengan pelaksanaan unit testing menggunakan PHPUnit 
+yang tersedia dalam framework Laravel. Pengujian ini bertujuan untuk memastikan 
+bahwa setiap fungsi dalam sistem dapat berjalan sesuai dengan yang diharapkan 
+dan memenuhi tujuan dari fitur yang dikembangkan. Setelah pengujian awal 
+dilakukan, pengembang mulai menulis kode program sesuai dengan kebutuhan 
+fungsional sistem. Selama proses ini, dilakukan pula refactoring terhadap bagian-
+
+=== PAGE 90 ===
+ 
+ 
+67 
+ 
+bagian kode yang dirasa kurang efisien atau sulit dipahami, guna menjaga 
+keterbacaan serta kualitas kode agar lebih optimal dan mudah dikembangkan di 
+masa mendatang. 
+A. 
+Unit Testing 1 
+Pada tahap unit testing, pengujian dilakukan menggunakan PHPUnit yang 
+merupakan bagian dari framework Laravel. Pengujian ini dilakukan untuk 
+memastikan bahwa fungsi-fungsi dalam sistem berjalan dengan benar dan sesuai 
+dengan kebutuhan yang telah dirancang. Tabel berikut menampilkan salah satu 
+contoh kode pengujian unit yang dilakukan pada iterasi pertama. Pada contoh ini, 
+pengembang menggunakan salah satu fitur sebagai objek pengujian, yaitu fitur 
+login dalam memastikan bahwa fungsi berjalan sesuai dengan perilaku yang telah 
+dirancang. 
+Tabel 4. 7 Kode Unit Testing 1 – Login 
+tests\Unit\Controllers\Auth\LoginControllerTest.php 
+001: <?php 
+002:  
+003: namespace Tests\Unit\Controllers\Auth; 
+004:  
+005: use App\Models\User; 
+006: use Illuminate\Foundation\Testing\RefreshDatabase; 
+007: use Illuminate\Support\Facades\Auth; 
+008: use Illuminate\Support\Facades\Hash; 
+009: use Tests\TestCase; 
+010:  
+011: class LoginControllerTest extends TestCase 
+012: { 
+013:     use RefreshDatabase; 
+014:  
+015:     protected function setUp(): void 
+016:     { 
+017:         parent::setUp(); 
+018:         
+\Spatie\Permission\Models\Role::firstOrCreate(['name' => 'Super 
+Admin']); 
+
+=== PAGE 91 ===
+ 
+ 
+68 
+ 
+tests\Unit\Controllers\Auth\LoginControllerTest.php 
+019:         
+\Spatie\Permission\Models\Role::firstOrCreate(['name' => 'Admin 
+Fasilitator']); 
+020:         
+\Spatie\Permission\Models\Role::firstOrCreate(['name' => 'Kepala 
+Kampung']); 
+021:         
+\Spatie\Permission\Models\Role::firstOrCreate(['name' => 
+'Masyarakat']); 
+022:     } 
+023:  
+024:     /** @test */ 
+025:     public function it_shows_the_login_page() 
+026:     { 
+027:         $response = $this->get(route('login')); 
+028:         $response->assertStatus(200); 
+029:         $response->assertViewIs('auth.login'); 
+030:     } 
+031:  
+032:     /** @test */ 
+033:     public function 
+it_fails_login_due_to_validation_errors() 
+034:     { 
+035:         $response = $this->post(route('login'), []); 
+036:  
+037:         $response->assertSessionHasErrors(['login', 
+'password', 'g-recaptcha-response']); 
+038:     } 
+039:  
+040:     /** @test */ 
+041:     public function it_fails_login_with_wrong_credentials() 
+042:     { 
+043:         $user = User::factory()->create([ 
+044:             'email' => 'user@example.com', 
+045:             'password' => Hash::make('password123'), 
+046:         ]); 
+047:  
+048:         $response = $this->post(route('login'), [ 
+
+=== PAGE 92 ===
+ 
+ 
+69 
+ 
+tests\Unit\Controllers\Auth\LoginControllerTest.php 
+049:             'login' => 'user@example.com', 
+050:             'password' => 'wrongpassword', 
+051:             'g-recaptcha-response' => 'captcha-response', 
+052:         ]); 
+053:  
+054:         $response->assertSessionHasErrors(['login']); 
+055:         $this->assertGuest(); 
+056:     } 
+057:  
+058:     /** @test */ 
+059:     public function 
+it_logs_in_as_admin_and_redirects_to_admin_dashboard() 
+060:     { 
+061:         $user = User::factory()->create([ 
+062:             'email' => 'admin@example.com', 
+063:             'password' => Hash::make('password123'), 
+064:         ]); 
+065:  
+066:         $user->assignRole('Super Admin'); 
+067:  
+068:         $response = $this->post(route('login'), [ 
+069:             'login' => 'admin@example.com', 
+070:             'password' => 'password123', 
+071:             'g-recaptcha-response' => 'captcha-response', 
+072:         ]); 
+073:  
+074:         $response->assertRedirect('/admin/dashboard'); 
+075:         $this->assertAuthenticatedAs($user); 
+076:     } 
+077:  
+078:     /** @test */ 
+079:     public function 
+it_logs_in_as_masyarakat_and_redirects_to_dashboard() 
+080:     { 
+081:         $user = User::factory()->create([ 
+082:             'email' => 'masyarakat@example.com', 
+083:             'password' => Hash::make('password123'), 
+084:         ]); 
+
+=== PAGE 93 ===
+ 
+ 
+70 
+ 
+tests\Unit\Controllers\Auth\LoginControllerTest.php 
+085:  
+086:         $user->assignRole('Masyarakat'); 
+087:  
+088:         $response = $this->post(route('login'), [ 
+089:             'login' => 'masyarakat@example.com', 
+090:             'password' => 'password123', 
+091:             'g-recaptcha-response' => 'captcha-response', 
+092:         ]); 
+093:  
+094:         $response->assertRedirect('/dashboard'); 
+095:         $this->assertTrue(Auth::check(), 'User seharusnya 
+terautentikasi tetapi tidak.'); 
+096:         $this->assertAuthenticatedAs($user); 
+097:     } 
+098:  
+099:     /** @test */ 
+100:     public function 
+it_logs_out_and_redirects_to_login_page() 
+101:     { 
+102:         $user = User::factory()->create(); 
+103:         $this->actingAs($user); 
+104:  
+105:         $response = $this->post(route('logout')); 
+106:  
+107:         $response->assertRedirect('login'); 
+108:         $this->assertGuest(); 
+109:     } 
+110:  
+111:     /** @test */ 
+112:     public function 
+login_fails_and_redirects_back_to_login_page() 
+113:     { 
+114:         $response = $this->post(route('login'), [ 
+115:             'login' => 'wronguser@example.com', 
+116:             'password' => 'wrongpassword', 
+117:             'g-recaptcha-response' => 'fake-captcha-token', 
+118:         ]); 
+119:  
+
+=== PAGE 94 ===
+ 
+ 
+71 
+ 
+tests\Unit\Controllers\Auth\LoginControllerTest.php 
+120:         $response->assertRedirect(); 
+121:         $response->assertSessionHasErrors(['login' => 
+'Username atau password salah']); 
+122:     } 
+123:  
+124:     /** @test */ 
+125:     public function 
+authenticated_user_is_redirected_based_on_role() 
+126:     { 
+127:         $user = User::factory()->create(); 
+128:         $user->assignRole('Super Admin'); 
+129:  
+130:         $this->actingAs($user); 
+131:  
+132:         $response = $this->get(route('login')); 
+133:  
+134:         $response->assertRedirect('/admin/dashboard'); 
+135:     } 
+136:  
+137:     /** @test */ 
+138:     public function 
+masyarakat_user_is_redirected_to_dashboard() 
+139:     { 
+140:         $user = User::factory()->create(); 
+141:         $user->assignRole('Masyarakat'); 
+142:  
+143:         $this->actingAs($user); 
+144:  
+145:         $response = $this->get(route('login')); 
+146:  
+147:         $response->assertRedirect('/dashboard'); 
+148:     } 
+149:  
+150:     /** @test */ 
+151:     public function 
+login_succeeds_but_redirects_to_login_due_to_no_roles() 
+152:     { 
+153:         $user = User::factory()->create([ 
+
+=== PAGE 95 ===
+ 
+ 
+72 
+ 
+tests\Unit\Controllers\Auth\LoginControllerTest.php 
+154:             'password' => bcrypt('password123'), 
+155:         ]); 
+156:  
+157:         $this->assertFalse($user->hasRole(['Super Admin', 
+'Admin Verifikator', 'Admin Fasilitator', 'Admin Controlling', 
+'Kepala Kampung', 'Masyarakat'])); 
+158:  
+159:         $response = $this->post(route('login'), [ 
+160:             'login' => $user->email, 
+161:             'password' => 'password123', 
+162:             'g-recaptcha-response' => 'fake-captcha-token', 
+163:         ]); 
+164:  
+165:         $response->assertRedirect('/login'); 
+166:     } 
+167: } 
+168: 
+ 
+Pengujian ini dilakukan untuk memastikan bahwa proses login berfungsi 
+sebagaimana mestinya dalam berbagai kondisi. Beberapa skenario diuji, seperti 
+memastikan halaman login dapat ditampilkan dengan benar, sistem menampilkan 
+pesan kesalahan saat validasi input gagal, serta melakukan pengalihan ke 
+dashboard apabila proses login berhasil, dan juga skenario lainnya yang dirancang 
+untuk mengevaluasi fungsi login secara menyeluruh. 
+ 
+Gambar 4. 6 Hasil Unit Testing 1 - Login 
+Hasil pengujian pada gambar 4.6 di atas menunjukkan status “pass” pada 
+seluruh skema uji yang dibuat, yang menandakan bahwa setiap fungsi yang diuji 
+telah bekerja sebagaimana mestinya. 
+ 
+
+=== PAGE 96 ===
+ 
+ 
+73 
+ 
+B. 
+Code 1 
+Setelah tahap unit testing, langkah selanjutnya adalah pengembangan kode 
+untuk fitur-fitur yang telah direncanakan pada iterasi pertama. Pada tahap ini, 
+pengembang menulis kode untuk mengimplementasikan fungsionalitas sesuai 
+dengan kebutuhan sistem yang telah ditentukan sebelumnya. Berikut ini merupakan 
+salah satu contoh implementasi pada iterasi pertama yang direpresentasikan dalam 
+bentuk pseudocode sebagai gambaran logika untuk fitur pengajuan BSPS. Kode 
+controller lengkap yang diimplementasikan pada iterasi pertama dapat diakses 
+melalui tautan berikut: s.itk.ac.id/code_iterasi_1. 
+Tabel 4. 8 Pseudocode Pengajuan BSPS 
+// FUNCTION: createPengajuan 
+// Tujuan: Menampilkan form pengajuan masyarakat 
+// Proses 
+tampilkan halaman 'dashboard-masyarakat.pengajuan.create' 
+ 
+// FUNCTION: show 
+// Tujuan: Menampilkan detail pengajuan tertentu 
+// Input 
+id_pengajuan = parameter 
+// Proses 
+pengajuan = cari Pengajuan berdasarkan id, dengan relasi 
+filePengajuan dan user.kecamatan 
+user = user yang sedang login 
+if (user memiliki role 'Admin Controlling') then 
+    if (user memiliki kecamatan_id) then 
+        if (pengajuan.user.kecamatan_id ≠ user.kecamatan_id) 
+then 
+            redirect kembali dengan pesan error "Anda tidak 
+memiliki akses ke pengajuan ini" 
+        end if 
+    end if 
+else 
+    if (user.id ≠ pengajuan.user_id) then 
+        redirect kembali dengan pesan error "Anda tidak memiliki 
+akses ke pengajuan ini" 
+    end if 
+
+=== PAGE 97 ===
+ 
+ 
+74 
+ 
+end if 
+tampilkan halaman 'dashboard-masyarakat.pengajuan.detail' dengan 
+data pengajuan 
+ 
+// FUNCTION: adminControlling 
+// Tujuan: Menampilkan daftar pengajuan untuk admin controlling 
+// Input 
+request (berisi filter kecamatan, bulan, tahun) 
+// Proses 
+user = user yang sedang login 
+kecamatans = ambil semua data Kecamatan 
+query = Pengajuan dengan relasi filePengajuan dan user.kecamatan 
+if (user memiliki role 'Admin Controlling') then 
+    if (user memiliki kecamatan_id) then 
+        filter query berdasarkan user.kecamatan.id == 
+user.kecamatan_id 
+    end if 
+    if (request memiliki kecamatan_filter) then 
+        filter query berdasarkan user.kecamatan.id == 
+kecamatan_filter 
+    end if 
+    if (request memiliki filter_bulan) then 
+        filter query berdasarkan bulan(created_at) == 
+filter_bulan 
+    end if 
+    if (request memiliki filter_tahun) then 
+        filter query berdasarkan tahun(created_at) == 
+filter_tahun 
+    end if 
+end if 
+pengajuans = ambil hasil dari query 
+tampilkan halaman 'dashboard-admin.pengajuan.admin-controlling' 
+dengan pengajuans dan kecamatans 
+ 
+// FUNCTION: revisi 
+// Tujuan: Mengunggah ulang dokumen hasil revisi 
+// Input 
+request (berisi file-file baru), id_pengajuan 
+// Proses 
+
+=== PAGE 98 ===
+ 
+ 
+75 
+ 
+validasi setiap file: harus PDF, maksimal 2 MB 
+pengajuan = cari Pengajuan berdasarkan id 
+filesUpdated = false 
+untuk setiap file yang diunggah: 
+    file = cari FilePengajuan berdasarkan ID 
+    jika file.status == 'revisi' then 
+        buat folder berdasarkan tanggal dan nama user 
+        simpan file ke storage dengan nama baru 
+        update file_path dan status = 'diajukan' 
+        set filesUpdated = true 
+    end if 
+end for 
+if (filesUpdated == true) then 
+    if (pengajuan.status == 'revisi') then 
+        set pengajuan.status = 'diajukan' 
+    end if 
+    simpan pengajuan 
+    updateTimeline(pengajuan, 'Pengajuan telah diperbaiki', 
+'Berkas X diperbaiki oleh user') 
+else 
+    if (pengajuan.status == 'revisi') then 
+        updateTimeline(pengajuan, 'Pengajuan tidak diubah', 
+'Pengajuan tetap dalam status revisi') 
+    end if 
+end if 
+redirect ke halaman detail pengajuan dengan pesan sukses 
+ 
+// FUNCTION: storePengajuan 
+// Tujuan: Menyimpan pengajuan baru 
+// Input 
+request (berisi data koordinat dan file dokumen) 
+// Proses 
+validasi koordinat dan semua file (PDF, maksimal 2 MB) 
+pengajuan = buat data Pengajuan baru dengan user_id, koordinat, 
+status 'diajukan' 
+daftar_files = [ktp, kk, foto_rumah, surat_keterangan_mbr, 
+surat_pernyataan, surat_permohonan, 
+surat_keterangan_kepemilikan] 
+untuk setiap file dalam daftar_files: 
+
+=== PAGE 99 ===
+ 
+ 
+76 
+ 
+    jika file diunggah: 
+        simpan file ke folder berdasarkan tanggal dan nama user 
+        buat FilePengajuan baru dengan pengajuan_id, 
+tipe_berkas, path, status 'diajukan' 
+    end if 
+end for 
+updateTimeline(pengajuan, 'Pengajuan telah dilakukan', 
+'Pengajuan dilakukan oleh user') 
+redirect ke halaman form pengajuan dengan pesan sukses 
+ 
+// FUNCTION: updateTimeline 
+// Tujuan: Menambahkan catatan ke timeline pengajuan 
+// Input 
+pengajuan, title, feedback (opsional) 
+// Proses 
+buat Feedback baru dengan pengajuan_id, title, feedback, dan 
+user_id 
+ 
+// FUNCTION: berikanFeedback 
+// Tujuan: Menambahkan komentar/feedback dari admin 
+// Input 
+pengajuan_id, request (berisi isi feedback) 
+// Proses 
+pengajuan = cari Pengajuan berdasarkan id 
+buat Feedback baru dengan pengajuan_id, title "Komentar oleh 
+[user]", isi feedback, dan user_id 
+simpan pengajuan 
+redirect kembali dengan pesan sukses 
+ 
+Tabel 4.8 di atas merupakan pseudocode untuk fungsi melakukan pengajuan 
+BSPS di dalam sistem. Penjelasan lebih lanjut mengenai pseudocode tersebut 
+disajikan pada Tabel 4.9 berikut, yang menguraikan fungsi dalam implementasi 
+tersebut. 
+Tabel 4. 9 Penjelasan Pseudocode Pengajuan BSPS 
+Proses 
+Penjelasan (Output) 
+Menampilkan form 
+pengajuan 
+User dengan role masyarakat dapat melihat halaman 
+pengajuan baru. 
+
+=== PAGE 100 ===
+ 
+ 
+77 
+ 
+Proses 
+Penjelasan (Output) 
+Menampilkan 
+detail pengajuan 
+(show) 
+Menampilkan detail pengajuan, dengan pembatasan akses 
+berdasarkan pengguna. 
+Halaman admin 
+controlling melihat 
+daftar pengajuan 
+Admin controlling hanya dapat melihat pengajuan dari 
+kecamatan mereka sendiri. Dapat memfilter berdasarkan 
+kecamatan, bulan, dan tahun. 
+Pengguna 
+mengunggah ulang 
+dokumen yang 
+direvisi 
+Pengajuan dapat diperbarui ulang oleh pengguna jika file 
+berstatus "revisi". Jika diperbarui, status kembali menjadi 
+"diajukan". 
+Proses pengajuan 
+baru oleh 
+masyarakat 
+Validasi koordinat dan 7 file PDF. Jika valid, semua file 
+disimpan dan status pengajuan menjadi "diajukan". 
+Menyimpan histori 
+pengajuan ke 
+dalam timeline 
+Fungsi updateTimeline mencatat perubahan status atau 
+aktivitas pada pengajuan ke tabel feedbacks. 
+Admin 
+memberikan 
+feedback tambahan 
+Admin dapat memberikan komentar yang tersimpan 
+sebagai feedback untuk dokumentasi. 
+ 
+ 
+Gambar 4. 7 Halaman Pengajuan BSPS 
+Gambar 4.7 menampilkan halaman pengajuan BSPS, pada halaman 
+pengajuan BSPS terdapat form pengajuan yang berisikan berkas-berkas yang perlu 
+diajukan yaitu Kartu Tanda Penduduk (KTP), Kartu Keluarga (KK), Sertifikat 
+Tanah/Surat Keterangan Kepemilikan Lainnya, Surat Keterangan MBR, Surat 
+Permohonan, Surat Pernyataan Bersedia Mengikuti Program, dan Titik Koordinat 
+Lokasi (longitude dan latitude) yang nantinya akan diinputkan melalui maps yang 
+ditampilkan pada form. Selain berisikan input berkas atau file, pada tampilan 
+
+=== PAGE 101 ===
+ 
+ 
+78 
+ 
+pengajuan BSPS juga terdapat form hint, checkbox untuk menyetujui syarat dan 
+ketentuan, serta tombol submit. 
+Fitur pengajuan ini merupakan salah satu solusi utama terhadap 
+permasalahan yang ada sebelumnya, yaitu proses pengajuan yang mengharuskan 
+masyarakat datang langsung ke kantor untuk menyerahkan dokumen secara fisik, 
+dan juga menjadi solusi terhadap pengajuan berkas dilakukan secara manual dan 
+tidak terdokumentasi secara digital. Dengan adanya fitur ini, berkas-berkas yang 
+diajukan masyarakat dapat tersimpan dan terdokumentasi dengan baik di dalam 
+sistem. Selain itu, masyarakat juga dapat memantau langsung perkembangan status 
+pengajuannya melalui tampilan riwayat atau timeline yang menampilkan informasi 
+seperti pengajuan diterima, ditolak, atau dikembalikan untuk revisi. Dengan adanya 
+sistem ini, masyarakat dapat mengajukan program BSPS dari mana saja secara 
+mandiri, sehingga lebih menghemat waktu, tenaga, dan biaya. 
+C. 
+Refactor 1 
+Pada tahap refactor di iterasi pertama, dilakukan pemeriksaan terhadap 
+seluruh kode yang telah diimplementasikan untuk memastikan apakah ada bagian 
+yang perlu diperbaiki atau disederhanakan. Setelah ditinjau, tidak ditemukan kode 
+yang perlu diubah atau dioptimalkan karena semua fungsi sudah berjalan dengan 
+baik dan sesuai kebutuhan. Oleh karena itu, pada iterasi ini tidak dilakukan proses 
+refactoring atau pengoptimalan kode. 
+4.3.4 System Testing 1 
+Pengujian fungsionalitas sistem dilakukan menggunakan metode Black Box 
+Testing, yaitu dengan menjalankan program dan mengevaluasi apakah hasil yang 
+diperoleh telah sesuai dengan yang diharapkan. Pada tahap system testing 1, 
+pengujian sistem dilaksanakan secara langsung oleh pengembang. Terdapat 37 
+skenario system testing pada iterasi pertama, dan Tabel 4.10 menampilkan salah 
+satu skenario yang diuji pada system testing 1, yaitu pengajuan BSPS. Seluruh 
+skenario pengujian lainnya pada system testing 1 dapat diakses melalui tautan 
+berikut https://s.itk.ac.id/system_testing_1. 
+
+=== PAGE 102 ===
+ 
+ 
+79 
+ 
+Tabel 4. 10 System Testing 1 
+No 
+Test Case 
+System Role 
+System Navigation 
+Testing Data 
+Expected Result 
+Status 
+1 
+Melakukan 
+pengajuan 
+BSPS 
+Super Admin 
+1. Login 
+ke dalam 
+sistem 
+sesuai 
+dengan role 
+2. Klik 
+menu 
+pengajuan BSPS 
+3. Input file berkas 
+pengajuan 
+BSPS 
+pada 
+form 
+pengajuan 
+4. Klik checkbox pada 
+pernyataan 
+persetujuan 
+5. Klik tombol submit 
+6. Klik 
+konfirmasi 
+pada 
+alert 
+yang 
+ditampilkan sistem 
+Input file: 
+1. KK 
+2. KTP 
+3. Sertifikat 
+tanah/Surat 
+keterangan 
+kepemilikan 
+lainnya 
+4. Foto rumah 
+5. Surat 
+permohonan 
+6. Surat 
+keterangan 
+MBR 
+7. Surat 
+pernyataan 
+bersedia 
+mengikuti 
+program 
+BSPS 
+Dapat melakukan 
+pengajuan 
+BSPS 
+melalui sistem 
+Passed 
+Masyarakat 
+Passed 
+ 
+ 
+ 

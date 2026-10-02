@@ -1,0 +1,659 @@
+{
+  "__plugin-vue_export-helper-DlAUqK2U.js": {
+    "file": "assets/_plugin-vue_export-helper-DlAUqK2U.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BHALPQa7.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/inertia-app.js": {
+    "file": "assets/inertia-app-E8g2_26K.js",
+    "name": "inertia-app",
+    "src": "resources/js/inertia-app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/inertia-pages/Admin/Berita/Index.vue",
+      "resources/js/inertia-pages/Admin/Dashboard.vue",
+      "resources/js/inertia-pages/Admin/IzinPenelitian/Index.vue",
+      "resources/js/inertia-pages/Admin/IzinPenelitian/Show.vue",
+      "resources/js/inertia-pages/Admin/Jadwal/Index.vue",
+      "resources/js/inertia-pages/Admin/PeminjamanLab/Index.vue",
+      "resources/js/inertia-pages/Admin/PeminjamanLab/Show.vue",
+      "resources/js/inertia-pages/Admin/ProgramStudi/Index.vue",
+      "resources/js/inertia-pages/Admin/Ruangan/Index.vue",
+      "resources/js/inertia-pages/Admin/Sertifikasi/Index.vue",
+      "resources/js/inertia-pages/Admin/Sertifikasi/Show.vue",
+      "resources/js/inertia-pages/Admin/SiteSetting/Index.vue",
+      "resources/js/inertia-pages/Admin/Skema/Index.vue",
+      "resources/js/inertia-pages/Admin/SuratBebas/Index.vue",
+      "resources/js/inertia-pages/Admin/SuratBebas/Show.vue",
+      "resources/js/inertia-pages/Admin/User/Index.vue",
+      "resources/js/inertia-pages/Auth/ConfirmPassword.vue",
+      "resources/js/inertia-pages/Auth/ForgotPassword.vue",
+      "resources/js/inertia-pages/Auth/GuestLayout.vue",
+      "resources/js/inertia-pages/Auth/Login.vue",
+      "resources/js/inertia-pages/Auth/Register.vue",
+      "resources/js/inertia-pages/Auth/ResetPassword.vue",
+      "resources/js/inertia-pages/Auth/VerifyEmail.vue",
+      "resources/js/inertia-pages/ComingSoon.vue",
+      "resources/js/inertia-pages/Dosen/Dashboard.vue",
+      "resources/js/inertia-pages/Dosen/Modul/Index.vue",
+      "resources/js/inertia-pages/Dosen/PeminjamanLab/Create.vue",
+      "resources/js/inertia-pages/Dosen/PeminjamanLab/Index.vue",
+      "resources/js/inertia-pages/Dosen/PeminjamanLab/Show.vue",
+      "resources/js/inertia-pages/InertiaDemo.vue",
+      "resources/js/inertia-pages/KepalaLab/Dashboard.vue",
+      "resources/js/inertia-pages/KepalaLab/IzinPenelitian/Index.vue",
+      "resources/js/inertia-pages/KepalaLab/IzinPenelitian/Show.vue",
+      "resources/js/inertia-pages/KepalaLab/PeminjamanLab/Index.vue",
+      "resources/js/inertia-pages/KepalaLab/PeminjamanLab/Show.vue",
+      "resources/js/inertia-pages/KepalaLab/Sertifikasi/Index.vue",
+      "resources/js/inertia-pages/KepalaLab/Sertifikasi/Show.vue",
+      "resources/js/inertia-pages/KepalaLab/Struktur/Index.vue",
+      "resources/js/inertia-pages/KepalaLab/SuratBebasLab/Index.vue",
+      "resources/js/inertia-pages/KepalaLab/SuratBebasLab/Show.vue",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue",
+      "resources/js/inertia-pages/Mahasiswa/Dashboard.vue",
+      "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Create.vue",
+      "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Index.vue",
+      "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Show.vue",
+      "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Create.vue",
+      "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Index.vue",
+      "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Show.vue",
+      "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Daftar.vue",
+      "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Index.vue",
+      "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Riwayat.vue",
+      "resources/js/inertia-pages/Mahasiswa/SuratBebasLab/Index.vue",
+      "resources/js/inertia-pages/Mahasiswa/SuratBebasLab/Show.vue",
+      "resources/js/inertia-pages/Profile/Edit.vue",
+      "resources/js/inertia-pages/Welcome.vue"
+    ],
+    "css": [
+      "assets/inertia-app-CuJ6bRb4.css"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/Berita/Index.vue": {
+    "file": "assets/Index-BLatqaH0.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/Berita/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/Dashboard.vue": {
+    "file": "assets/Dashboard-BrZqCJvu.js",
+    "name": "Dashboard",
+    "src": "resources/js/inertia-pages/Admin/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/IzinPenelitian/Index.vue": {
+    "file": "assets/Index-CkSLEHHs.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/IzinPenelitian/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/IzinPenelitian/Show.vue": {
+    "file": "assets/Show-CwIXxlxT.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Admin/IzinPenelitian/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/Jadwal/Index.vue": {
+    "file": "assets/Index-BAz0eqHn.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/Jadwal/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/PeminjamanLab/Index.vue": {
+    "file": "assets/Index-1qpgU-Wv.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/PeminjamanLab/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/PeminjamanLab/Show.vue": {
+    "file": "assets/Show-NmoCE0ui.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Admin/PeminjamanLab/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/ProgramStudi/Index.vue": {
+    "file": "assets/Index-Cmc9-b7G.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/ProgramStudi/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/Ruangan/Index.vue": {
+    "file": "assets/Index-CEnYalZB.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/Ruangan/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/Sertifikasi/Index.vue": {
+    "file": "assets/Index-BA8YUdg3.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/Sertifikasi/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/Sertifikasi/Show.vue": {
+    "file": "assets/Show-CDm2FGrN.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Admin/Sertifikasi/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/SiteSetting/Index.vue": {
+    "file": "assets/Index-BKV2tp-6.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/SiteSetting/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/Skema/Index.vue": {
+    "file": "assets/Index-BgsL6jDF.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/Skema/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/SuratBebas/Index.vue": {
+    "file": "assets/Index-CHjA72Iu.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/SuratBebas/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/SuratBebas/Show.vue": {
+    "file": "assets/Show-BeOWJw8t.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Admin/SuratBebas/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Admin/User/Index.vue": {
+    "file": "assets/Index-V943laFo.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Admin/User/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Auth/ConfirmPassword.vue": {
+    "file": "assets/ConfirmPassword-DN40E8Xc.js",
+    "name": "ConfirmPassword",
+    "src": "resources/js/inertia-pages/Auth/ConfirmPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Auth/GuestLayout.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/ConfirmPassword-RExgqe4q.css"
+    ]
+  },
+  "resources/js/inertia-pages/Auth/ForgotPassword.vue": {
+    "file": "assets/ForgotPassword-Cm0X8nDd.js",
+    "name": "ForgotPassword",
+    "src": "resources/js/inertia-pages/Auth/ForgotPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Auth/GuestLayout.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/ForgotPassword-Cl56veD7.css"
+    ]
+  },
+  "resources/js/inertia-pages/Auth/GuestLayout.vue": {
+    "file": "assets/GuestLayout-C04-yR1r.js",
+    "name": "GuestLayout",
+    "src": "resources/js/inertia-pages/Auth/GuestLayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/GuestLayout-uQPEZ6bB.css"
+    ]
+  },
+  "resources/js/inertia-pages/Auth/Login.vue": {
+    "file": "assets/Login-CAPooVKD.js",
+    "name": "Login",
+    "src": "resources/js/inertia-pages/Auth/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Auth/GuestLayout.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/Login-CtA60kU9.css"
+    ]
+  },
+  "resources/js/inertia-pages/Auth/Register.vue": {
+    "file": "assets/Register-Bgf_o8Et.js",
+    "name": "Register",
+    "src": "resources/js/inertia-pages/Auth/Register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Auth/GuestLayout.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/Register-k45OPnQy.css"
+    ]
+  },
+  "resources/js/inertia-pages/Auth/ResetPassword.vue": {
+    "file": "assets/ResetPassword-Do7WC_-S.js",
+    "name": "ResetPassword",
+    "src": "resources/js/inertia-pages/Auth/ResetPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Auth/GuestLayout.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/ResetPassword-DcbggLU-.css"
+    ]
+  },
+  "resources/js/inertia-pages/Auth/VerifyEmail.vue": {
+    "file": "assets/VerifyEmail--s3tiKPH.js",
+    "name": "VerifyEmail",
+    "src": "resources/js/inertia-pages/Auth/VerifyEmail.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Auth/GuestLayout.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/VerifyEmail-DHPCdYUo.css"
+    ]
+  },
+  "resources/js/inertia-pages/ComingSoon.vue": {
+    "file": "assets/ComingSoon-DMiLkT8K.js",
+    "name": "ComingSoon",
+    "src": "resources/js/inertia-pages/ComingSoon.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Dosen/Dashboard.vue": {
+    "file": "assets/Dashboard-CVgvquba.js",
+    "name": "Dashboard",
+    "src": "resources/js/inertia-pages/Dosen/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Dosen/Modul/Index.vue": {
+    "file": "assets/Index-DZZ8AWk_.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Dosen/Modul/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Dosen/PeminjamanLab/Create.vue": {
+    "file": "assets/Create-i0iR8lTI.js",
+    "name": "Create",
+    "src": "resources/js/inertia-pages/Dosen/PeminjamanLab/Create.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Dosen/PeminjamanLab/Index.vue": {
+    "file": "assets/Index-BtF_9VLT.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Dosen/PeminjamanLab/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Dosen/PeminjamanLab/Show.vue": {
+    "file": "assets/Show-DVSmtufJ.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Dosen/PeminjamanLab/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/InertiaDemo.vue": {
+    "file": "assets/InertiaDemo-Br3-w372.js",
+    "name": "InertiaDemo",
+    "src": "resources/js/inertia-pages/InertiaDemo.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/Dashboard.vue": {
+    "file": "assets/Dashboard-BJ6XUmEW.js",
+    "name": "Dashboard",
+    "src": "resources/js/inertia-pages/KepalaLab/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/IzinPenelitian/Index.vue": {
+    "file": "assets/Index-Am_BiwOV.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/KepalaLab/IzinPenelitian/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/IzinPenelitian/Show.vue": {
+    "file": "assets/Show-D2tUpTGD.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/KepalaLab/IzinPenelitian/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/PeminjamanLab/Index.vue": {
+    "file": "assets/Index-DSTyp20t.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/KepalaLab/PeminjamanLab/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/PeminjamanLab/Show.vue": {
+    "file": "assets/Show-CcpAnW8Q.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/KepalaLab/PeminjamanLab/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/Sertifikasi/Index.vue": {
+    "file": "assets/Index-BiDohIYi.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/KepalaLab/Sertifikasi/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/Sertifikasi/Show.vue": {
+    "file": "assets/Show-BTJjtvPo.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/KepalaLab/Sertifikasi/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/Struktur/Index.vue": {
+    "file": "assets/Index-DjNV39CF.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/KepalaLab/Struktur/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/SuratBebasLab/Index.vue": {
+    "file": "assets/Index-NmvmGXIL.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/KepalaLab/SuratBebasLab/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/KepalaLab/SuratBebasLab/Show.vue": {
+    "file": "assets/Show-Czc2J_5u.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/KepalaLab/SuratBebasLab/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Layouts/AppLayout.vue": {
+    "file": "assets/AppLayout-DhocOsdK.js",
+    "name": "AppLayout",
+    "src": "resources/js/inertia-pages/Layouts/AppLayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/Dashboard.vue": {
+    "file": "assets/Dashboard-BQf4yOpE.js",
+    "name": "Dashboard",
+    "src": "resources/js/inertia-pages/Mahasiswa/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/Dashboard-DBvglP7R.css"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Create.vue": {
+    "file": "assets/Create-CKZf1KCL.js",
+    "name": "Create",
+    "src": "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Create.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Index.vue": {
+    "file": "assets/Index-AXd63Jp2.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Show.vue": {
+    "file": "assets/Show-Caw_6sjx.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Mahasiswa/IzinPenelitian/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Create.vue": {
+    "file": "assets/Create-BoUolcOk.js",
+    "name": "Create",
+    "src": "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Create.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Index.vue": {
+    "file": "assets/Index-B0TOoppx.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Show.vue": {
+    "file": "assets/Show-gDcbzR8k.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Mahasiswa/PeminjamanLab/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Daftar.vue": {
+    "file": "assets/Daftar-Bz-UZypT.js",
+    "name": "Daftar",
+    "src": "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Daftar.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Index.vue": {
+    "file": "assets/Index-COkEQran.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Riwayat.vue": {
+    "file": "assets/Riwayat-Bu-2uN_W.js",
+    "name": "Riwayat",
+    "src": "resources/js/inertia-pages/Mahasiswa/Sertifikasi/Riwayat.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/SuratBebasLab/Index.vue": {
+    "file": "assets/Index-C6NkdwJu.js",
+    "name": "Index",
+    "src": "resources/js/inertia-pages/Mahasiswa/SuratBebasLab/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Mahasiswa/SuratBebasLab/Show.vue": {
+    "file": "assets/Show-HgiJ3mgE.js",
+    "name": "Show",
+    "src": "resources/js/inertia-pages/Mahasiswa/SuratBebasLab/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Profile/Edit.vue": {
+    "file": "assets/Edit-BxOvF9gE.js",
+    "name": "Edit",
+    "src": "resources/js/inertia-pages/Profile/Edit.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "resources/js/inertia-pages/Layouts/AppLayout.vue"
+    ]
+  },
+  "resources/js/inertia-pages/Welcome.vue": {
+    "file": "assets/Welcome-p8ZPaQZ2.js",
+    "name": "Welcome",
+    "src": "resources/js/inertia-pages/Welcome.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/inertia-app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/Welcome-B8NQBrcK.css"
+    ]
+  }
+}
